@@ -1,0 +1,22 @@
+.answers {
+  margin: 2%;
+  padding: 10px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  width: 80%;
+  height: 20px;
+  background-color: white;
+  padding-left: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 3%;
+}
+.answers:hover {
+  opacity: 0.5;
+  padding-left: 25px;
+}
+.nonClick {
+  background-color: grey;
+  pointer-events: none;
+}
